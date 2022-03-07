@@ -1,0 +1,23 @@
+.card-link,
+.bg-black,
+.tags {
+    background-color: #222 !important;
+}
+
+.tags {
+    padding: 5px;
+}
+
+.card-link,
+.card-link:hover,
+.tags,
+.tags:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.card-link:hover,
+.tags:hover {
+    background-color: orange !important;
+    transition: all 200ms ease-in-out;
+}
